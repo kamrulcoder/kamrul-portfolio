@@ -1,0 +1,51 @@
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.dev-icons  h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.software-skill-inline {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+
+.software-skill-inline > svg {
+  color: #868e96;
+}
+
+.software-skill-inline > svg:hover {
+  color: #645beb;
+}
+.software-skill-inline > p {
+  color: #868e96;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+
+.software-skill-inline > h6 {
+  position: absolute;
+    font-size: 8px;
+    background: #000;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: #fff;
+    top: 4px;
+}
+
+
+
+.software-skill-inline > svg:hover ~ p{
+  color: #645beb;
+}

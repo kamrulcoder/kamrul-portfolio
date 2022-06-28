@@ -1,0 +1,58 @@
+
+
+.project-hedear  {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.project-hedear  h2 {
+  font-weight: 700;
+  font-size: 42px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.project-hedear  span {
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background: #242526;
+}
+
+.projectButtons  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio-feature  {
+  padding-left: 10px;
+}
+
+
+.portfolio-feature  li   {
+   font-weight: 400;
+   color: #242526;
+   font-size: 13px;
+}
+
+
+.project-icon   svg {
+  font-size: 20px;
+
+}
+
+.project-icon  {
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+  font-size: 20px !important;
+}
+
+.project-icon li {
+   margin: 0 10px;
+   border: 1px solid #ddd;
+   padding: 3px 6px;
+   border-radius: 4px;
+}
