@@ -120,6 +120,13 @@ const skillsSection = {
           backgroundColor: "transparent",
         },
       },
+      {
+        skillName: "Tailwind Css",
+        classname: "logos:tailwindcss-icon",
+        style: {
+          backgroundColor: "transparent",
+        },
+      },
     ],
 
     frontends: [
@@ -203,9 +210,6 @@ const skillsSection = {
           backgroundColor: "transparent",
         },
       },
-    ],
-
-    databases: [
       {
         skillName: " MySql ",
         classname: "logos:mysql",
@@ -222,12 +226,14 @@ const skillsSection = {
       },
       {
         skillName: " Mongodb ",
-        classname: "logos:mongodb",
+        classname: "vscode-icons:file-type-mongo",
         style: {
           backgroundColor: "transparent",
         },
       },
     ],
+
+    
     tools: [
       {
         skillName: " Postman ",
@@ -326,15 +332,36 @@ const contactInfo = {
 
 const projects = [
   {
-    image: "mern-ecommerce.jpg",
+    image: "mern-ecommerce.png",
     title: "mern Ecommerce Project ",
-    desc: "Mern Ecommerce Description ",
     features: [
       "Admin product, User , Order  management",
       "Full featured shopping cart",
       "Mark orders as delivered option",
       "Checkout process (shipping, payment method, etc)",
       "PayPal / credit card integration"
+    ],
+
+classname: [
+      "logos:javascript",
+      "logos:react",
+      "logos:bootstrap",
+      "la:node-js",
+      "vscode-icons:file-type-mongo",
+    ],
+    codeLink: "https://github.com/kamrulcoder/react-recipe-app",
+    liveLink: "https://react-recipesite.netlify.app/",
+  },
+  {
+    image: "react-recipe.png",
+    title: "React Recipe App  Project ",
+    features: [
+      "Full Responsible Website ",
+      "Website Animation and Color Change Functionality ",
+      "Recipe Catagory and Card Page Design",
+      "Recipe Search  and Previous Search Design",
+      "Easy Manage  Project Code  "
+           
     ],
 
 classname: [
@@ -348,31 +375,8 @@ classname: [
     liveLink: "https://mern-ecommerce22.herokuapp.com/",
   },
   {
-    image: "mern-ecommerce.jpg",
-    title: "Next  Ecommerce Project ",
-    desc: "Mern Ecommerce Description ",
-    features: [
-      "Admin product, User , Order  management",
-      "Full featured shopping cart",
-      "Mark orders as delivered option",
-      "Checkout process (shipping, payment method, etc)",
-      "PayPal / credit card integration"
-    ],
-
-classname: [
-      "logos:javascript",
-      "logos:react",
-      "icon-park:html-five",
-      "vscode-icons:file-type-css",
-      "logos:bootstrap",
-    ],
-    codeLink: "https://github.com/kamrulcoder/mern-ecommerce",
-    liveLink: "https://mern-ecommerce22.herokuapp.com/",
-  },
-  {
-    image: "mern-ecommerce.jpg",
+    image: "mern-ecommerce.png",
     title: "React  Ecommerce Project ",
-    desc: "Mern Ecommerce Description ",
     features: [
       "Admin product, User , Order  management",
       "Full featured shopping cart",

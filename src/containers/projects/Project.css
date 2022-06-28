@@ -27,7 +27,7 @@
 }
 
 .portfolio-feature  {
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 
@@ -35,6 +35,12 @@
    font-weight: 400;
    color: #242526;
    font-size: 13px;
+}
+
+.portfolio-feature  h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
 }
 
 
@@ -55,4 +61,26 @@
    border: 1px solid #ddd;
    padding: 3px 6px;
    border-radius: 4px;
+}
+
+
+
+
+.window {
+  width: 100%;
+  margin: auto;
+  /* border: 7px solid #1d505d; */
+  border-radius: 5px;
+  box-shadow: 0px 20px 46px 2px #bcc6ff;
+  cursor: n-resize;
+}
+.window img {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  height: 250px;
+  transition: 2s all ease;
+}
+.window img:hover {
+  object-position: bottom;
 }

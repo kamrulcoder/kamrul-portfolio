@@ -44,16 +44,17 @@ export default function Projects() {
           {projects.map(project => (
             <Col lg={4}  key={project.title}>
               <Card style={{ width: "100%", margin: "20px 0" }}>
+              <div className="window">
                 <Card.Img
                   variant="top"
-                  src="https://materialui-portfolio.netlify.app/static/media/html-css-javascript.2c7701aa.jpg"
+                  src={require(`../../assets/images/${project.image || ""}`)}
                 />
+                </div>
                 <Card.Body>
                   <Card.Title>{project.title} </Card.Title>
-                  <Card.Text>
-                    {project.desc}
-                  </Card.Text>
+                 
                   <ul className="portfolio-feature">
+                  <h6>Features___</h6>
                   {project.features.map(feature => (
                     <li  key={feature}>{feature}</li>
                   ))}
